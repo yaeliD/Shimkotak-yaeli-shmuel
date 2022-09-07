@@ -1,0 +1,325 @@
+{
+    "streets": {
+        "street": [
+            {
+                "street_symbol": [
+                    "967"
+                ],
+                "hebrew_name": [
+                    "אברהם בן דוד"
+                ],
+                "english_name": [
+                    "Avram ben david"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "472"
+                ],
+                "hebrew_name": [
+                    "בארי"
+                ],
+                "english_name": [
+                    "beari"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "473"
+                ],
+                "hebrew_name": [
+                    "גורדון"
+                ],
+                "english_name": [
+                    "gordon"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "935"
+                ],
+                "hebrew_name": [
+                    "דוד"
+                ],
+                "english_name": [
+                    "DAVID"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "958 "
+                ],
+                "hebrew_name": [
+                    "מכאל"
+                ],
+                "english_name": [
+                    "micael"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "1042"
+                ],
+                "hebrew_name": [
+                    "רימון"
+                ],
+                "english_name": [
+                    "Rimon"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "932"
+                ],
+                "hebrew_name": [
+                    "יוסף"
+                ],
+                "english_name": [
+                    "yosp"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "154 "
+                ],
+                "hebrew_name": [
+                    "תל מונד "
+                ],
+                "english_name": [
+                    "TEL MOND "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "103 "
+                ],
+                "hebrew_name": [
+                    "תל עדשים "
+                ],
+                "english_name": [
+                    "TEL ADASHIM "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "719 "
+                ],
+                "hebrew_name": [
+                    "תל קציר "
+                ],
+                "english_name": [
+                    "TEL QAZIR "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "1054 "
+                ],
+                "hebrew_name": [
+                    "תל שבע "
+                ],
+                "english_name": [
+                    "TEL SHEVA "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "1283 "
+                ],
+                "hebrew_name": [
+                    "תל תאומים "
+                ],
+                "english_name": [
+                    "TEL TE'OMIM "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "3719 "
+                ],
+                "hebrew_name": [
+                    "תלם "
+                ],
+                "english_name": [
+                    "TELEM "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "1051 "
+                ],
+                "hebrew_name": [
+                    "תלמי אליהו "
+                ],
+                "english_name": [
+                    "TALME ELIYYAHU "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "2003 "
+                ],
+                "hebrew_name": [
+                    "תלמי אלעזר "
+                ],
+                "english_name": [
+                    "TALME EL'AZAR "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "2050 "
+                ],
+                "hebrew_name": [
+                    "תלמי ביל\"ו "
+                ],
+                "english_name": [
+                    "TALME BILU "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "1237 "
+                ],
+                "hebrew_name": [
+                    "תלמי יוסף "
+                ],
+                "english_name": [
+                    "TALME YOSEF "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "727 "
+                ],
+                "hebrew_name": [
+                    "תלמי יחיאל "
+                ],
+                "english_name": [
+                    "TALME YEHI'EL "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "744 "
+                ],
+                "hebrew_name": [
+                    "תלמי יפה "
+                ],
+                "english_name": [
+                    "TALME YAFE "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "814 "
+                ],
+                "hebrew_name": [
+                    "תלמים "
+                ],
+                "english_name": [
+                    "TELAMIM "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "1244 "
+                ],
+                "hebrew_name": [
+                    "תמרת "
+                ],
+                "english_name": [
+                    "TIMRAT "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "2002 "
+                ],
+                "hebrew_name": [
+                    "תנובות "
+                ],
+                "english_name": [
+                    "TENUVOT "
+                ]
+            },
+            {
+                "street_symbol": [
+                    "752"
+                ],
+                "hebrew_name": [
+                    "תעוז"
+                ],
+                "english_name": [
+                    "TA'OZ"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "709"
+                ],
+                "hebrew_name": [
+                    "תפרח"
+                ],
+                "english_name": [
+                    "TIFRAH"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "665"
+                ],
+                "hebrew_name": [
+                    "תקומה"
+                ],
+                "english_name": [
+                    "TEQUMA"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "3563"
+                ],
+                "hebrew_name": [
+                    "תקוע"
+                ],
+                "english_name": [
+                    "TEQOA"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "970"
+                ],
+                "hebrew_name": [
+                    "תראבין א-צאנע )שבט("
+                ],
+                "english_name": [
+                    "TARABIN AS-SANI"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "1346"
+                ],
+                "hebrew_name": [
+                    "תראבין א-צאנע)ישוב("
+                ],
+                "english_name": [
+                    "TARABIN AS-SANI"
+                ]
+            },
+            {
+                "street_symbol": [
+                    "778"
+                ],
+                "hebrew_name": [
+                    "תרום"
+                ],
+                "english_name": [
+                    "TARUM"
+                ]
+            }
+        ]
+    }
+}

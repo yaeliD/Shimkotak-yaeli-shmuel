@@ -1,0 +1,38 @@
+<p-button (click)="showMaximizableDialog()" icon="pi pi-external-link" label="Add Driver"></p-button>
+<p-dialog header="Godfather I" [(visible)]="displayMaximizable" [modal]="true" [style]="{width: '50vw'}"
+    [maximizable]="true" [draggable]="false" [resizable]="false">
+    <div class="card-content">
+        <form InputText [formGroup]="newDriverForm" (ngSubmit)="onSubmit()">
+            <input InputText class="form-field"
+                [class.form-field-invalid]="name?.invalid && (name?.dirty || name?.touched)" id="name"
+                formControlName="name" type="text" placeholder="name">
+            <div *ngIf="name?.invalid && (name?.dirty || name?.touched)">
+                <div class="error-message" *ngIf="name?.errors?.['required']">You must enter a name</div>
+            </div><br>
+
+            <input InputText class="form-field" [class.form-field-invalid]="TZ?.invalid && (TZ?.dirty || TZ?.touched)"
+                id="TZ" formControlName="TZ" type="text" placeholder="TZ">
+            <div *ngIf="TZ?.invalid && (TZ?.dirty || TZ?.touched)">
+                <div class="error-message" *ngIf="TZ?.errors?.['required']">You must enter a TZ</div>
+            </div>
+
+            <p>city</p>
+            <app-autocomplete [autocompleteInput]="autocompleteInput" [listSearch]="cities"
+                (selected)="currentCity($event)"></app-autocomplete>
+            <div *ngIf="city?.invalid && (city?.dirty || city?.touched)">
+                <div class="error-message" *ngIf="city?.errors?.['required']">You must enter a city</div>
+            </div>
+
+            <p>street</p>
+            <app-autocomplete [autocompleteInput]="autocompleteInput" [listSearch]="streets"
+                (selected)="currentStreet($event)"></app-autocomplete>
+            <div *ngIf="street?.invalid && (street?.dirty || street?.touched)">
+                <div class="error-message" *ngIf="street?.errors?.['required']">You must enter a street</div>
+            </div>
+        </form>
+    </div>
+    <ng-template pTemplate="footer">
+        <p-button type="submit" icon="pi pi-check" (click)="onSubmit()" label="Save" styleClass="p-button-text">
+        </p-button>
+    </ng-template>
+</p-dialog>

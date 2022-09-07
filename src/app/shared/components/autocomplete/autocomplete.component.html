@@ -1,0 +1,10 @@
+
+<input [(ngModel)]="autocompleteInput" (keyup)="getPlaceAutocomplete()" class="autocomplete"/>
+<div *ngIf="queryWait">
+    <div  class="results">
+    <div *ngFor="let city of searchResults" >
+        <p class="result" *ngIf="isEnglishName" (click)="selectedEntity(city.english_name)">{{city.english_name}}</p>
+        <p class="result" *ngIf="!isEnglishName" (click)="selectedEntity(city.hebrew_name)">{{city.hebrew_name}}</p>
+    </div>
+</div>
+</div>
